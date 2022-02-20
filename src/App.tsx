@@ -26,6 +26,7 @@ import Toasts from "./components/Toasts"
 export default function App() {
   return (
     <Router>
+      <div className="font-mono">
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path="/accordians" element={ <Accordians /> } />
@@ -39,18 +40,19 @@ export default function App() {
         <Route path="/dropdowns" element={ <Dropwdowns /> } />
         <Route path="/forms" element={ <Forms /> } />
         <Route path="/jumbotrons" element={ <Jumbotrons /> } />
-        <Route path="/list-groups" element={ <ListGroups /> } />
+        <Route path="/list%20groups" element={ <ListGroups /> } />
         <Route path="/modals" element={ <Modals /> } />
         <Route path="/navbars" element={ <Navbars /> } />
-        <Route path="/nav-tabs" element={ <NavTabs /> } />
+        <Route path="/navs%20&%20tabs" element={ <NavTabs /> } />
         <Route path="/offcanvas" element={ <OffCanvas /> } />
         <Route path="/popovers" element={ <Popovers /> } />
-        <Route path="/progress-bars" element={ <ProgressBars /> } />
-        <Route path="/skeleton-placeholder" element={ <SkeletonPlaceholder /> } />
+        <Route path="/progress%20bars" element={ <ProgressBars /> } />
+        <Route path="/skeleton%20placeholders" element={ <SkeletonPlaceholder /> } />
         <Route path="/spinners" element={ <Spinners /> } />
         <Route path="/tables" element={ <Tables /> } />
         <Route path="/toasts" element={ <Toasts /> } />
       </Routes>
+      </div>
     </Router>
   )
 }
