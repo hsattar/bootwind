@@ -26,7 +26,7 @@ import Toasts from "./components/Toasts"
 export default function App() {
   return (
     <Router>
-      <div className="font-mono">
+      <div className="container mx-auto font-mono">
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path="/accordians" element={ <Accordians /> } />

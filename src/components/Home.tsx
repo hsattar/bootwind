@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
-        <div className="container mx-auto text-center capitalize">
+        <div className="text-center capitalize">
             <h1 className="mt-4 mb-3 text-5xl">BOOTWIND</h1>
             <h2 className="text-2xl uppercase">Creating Bootstrap Components Using Tailwind CSS</h2>
 
